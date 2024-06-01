@@ -1,16 +1,12 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Navbar from './component/Navbar';
-import ProductList from './component/ProductList';
+import Navbar from './components/Navbar';
+import ProductList from './components/ProductList';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<ProductList />} />
-        
-      </Routes>
+      <ProductList />
     </div>
   );
 };

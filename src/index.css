@@ -1,47 +1,43 @@
+/* Add some basic styling */
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #dee2e6;
+  padding: 1em;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ccc;
 }
 
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 1em;
+  padding: 1em;
 }
 
-.product-item {
-  border: 1px solid #dee2e6;
-  padding: 1rem;
-  text-align: center;
-  width: calc(33.333% - 2rem);
+.product {
+  border: 1px solid #ccc;
+  padding: 1em;
+  width: calc(33.333% - 2em);
 }
 
-.product-item img {
-  max-width: 100%;
-  height: auto;
+.product h3 {
+  margin-top: 0;
 }
 
-.product-item h2 {
-  font-size: 1.25rem;
-  margin: 0.5rem 0;
-}
-
-.product-item button {
+button {
   background-color: #007bff;
-  color: #fff;
+  color: white;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5em 1em;
   cursor: pointer;
 }
 
-.product-item button:hover {
+button:hover {
   background-color: #0056b3;
 }
