@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <NavLink to="/" exact>
+      <NavLink to="/" end>
         Home
       </NavLink>
       <NavLink to="/cart">

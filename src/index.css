@@ -1,4 +1,8 @@
-/* Add some basic styling */
+ые стили */
+body {
+  background-color: #f7fafc; /* bg-gray-100 */
+  color: #1a202c; /* text-gray-900 */
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -41,3 +45,4 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
